@@ -2,38 +2,39 @@
 
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
+  display: flex; /* correct */
+  justify-content: space-between; /* correct */
+  padding: 16px; /* correct */
 }
 
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 16px;
-  flex-grow: 1;
+  display: flex; /* correct */
+  justify-content: center; /* correct */
+  align-items: center; /* correct */
+  flex-direction: column; /* correct */
+  gap: 16px; /* correct */
+  flex: 1; /* correct */
 }
 
 .footer {
-  display: flex;
-  background-color: #eeeeee;
-  justify-content: space-between;
-  padding: 16px;
+  display: flex; /* correct */
+  background-color: #eeeeee; /* correct */
+  justify-content: space-between; /* correct */
+  padding: 16px; /* correct */
 
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /* correct */
+  color: #666; /* Add color */
 }
 
 ul {
-  list-style-type: none;
-  display: flex;
-  gap: 16px;
-  padding: 0px;
-  margin: 0px;
+  list-style-type: none; /* correct */
+  display: flex; /* correct */
+  gap: 16px; /* correct */
+  padding: 0px; /* correct */
+  margin: 0px; /* correct */
 }
 
 body {
@@ -41,8 +42,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: column;
+  display: flex; /* correct */
+  flex-direction: column; /* correct */
 }
 
 img {
@@ -54,8 +55,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
-}
+  padding: 8px 16px; /* correct + add 16px */
+} 
 
 input {
   border: 1px solid #ddd;
